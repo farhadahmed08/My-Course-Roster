@@ -5,7 +5,7 @@
 
 2. student cannot take one subject twice.if he tried it will give error alert.
 
-3. according to subject credit it will add total credit and credit will reduce from the remaning credit,
+3. according to subject credit it will add total credit and credit will reduce from the remaining credit,
 
 # Discuss how you managed the state in your assignment project.
 
