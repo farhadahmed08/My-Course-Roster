@@ -1,4 +1,4 @@
-import './Cart.css'
+
 
 const Cart = ({selectedCourse,remaining,totalCredit}) => {
     

@@ -1,8 +1,20 @@
-# React + Vite
+# Course-registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 3 Project features
+1. one of the feature is student can take maximum 20 credit.if it goes more than student will get alert and can not add credit.
 
-Currently, two official plugins are available:
+2. student cannot take one subject twice.if he tried it will give error alert.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. according to subject credit it will add total credit and credit will reduce from the remaning credit,
+
+# Discuss how you managed the state in your assignment project.
+
+i used two react hooks to manage state one of them are useState and another one is useEffect.useEffect usually i use for fetch data and handle outside effect most time i used useState.I use const [courses,setCourses] = useState([]);
+    const [selectedCourse,setSelectedCourse] = useState([]);
+    const [remaining,setRemaining] = useState(0);
+    const [totalCredit,setTotalCredit] = useState(0)
+
+    these useState.
+
+
+
