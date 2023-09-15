@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/7JZjCKC/Rectangle-2.png",
+        "course": "Introduction to Programming",
+        "credit": 1,
+        "price": 15000,
+        "details": "Learn the basics of programming with this introductory course."
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/CKvt7yt/Rectangle-2-1.png",
+        "course": "Web Development Fundamentals",
+        "credit": 2,
+        "price": 25000 ,
+        "details": "Get started with web development and build your first websites."
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/XYkvCNc/Rectangle-2-2.png",
+        "course": "Data Science Essentials",
+        "credit": 10,
+        "price": 10000,
+        "details": "Explore data analysis, visualization, and machine learning."
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/qMn6XWN/Rectangle-2-3.png",
+        "course": "Mobile App Development",
+        "credit": 5,
+        "price": 35000,
+        "details": "Create mobile apps for iOS and Android platforms."
+    },
+    {
+        "id": 5,
+        "img": "https://i.ibb.co/YPf7Vmj/Rectangle-2-4.png",
+        "course": "Graphic Design Basics",
+        "credit": 5,
+        "price": 19000,
+        "details": "Learn the principles of graphic design and create stunning visuals."
+    },
+    {
+        "id": 6,
+        "img": "https://i.ibb.co/VDzrZ1b/Rectangle-2-5.png",
+        "course": "Digital Marketing Masterclass",
+        "credit": 2,
+        "price": 23000,
+        "details": "Become a digital marketing expert and boost your online presence."
+    },
+    {
+        "id": 7,
+        "img": "https://i.ibb.co/3dBcrgP/Rectangle-2-6.png",
+        "course": "Python Programming for Beginners",
+        "credit": 5,
+        "price": 35000,
+        "details": "Start your journey into Python programming with hands-on exercises."
+    },
+    {
+        "id": 8,
+        "img": "https://i.ibb.co/vLdZy0X/Rectangle-3.png",
+        "course": "Machine Learning and AI",
+        "credit": 5,
+        "price": 19000,
+        "details": "Dive deep into machine learning and artificial intelligence."
+    },
+    {
+        "id": 9,
+        "img": "https://i.ibb.co/k595TR2/Rectangle-3-1.png",
+        "course": "Photography Essentials",
+        "credit": 2,
+        "price": 23000,
+        "details": "Master the art of photography with professional techniques."
+    }
+]
