@@ -4,6 +4,7 @@
 import { useEffect, useState } from "react";
 import "./Home.css";
 import Cart from "../Cart/Cart";
+import Swal from "sweetalert2";
 const Home = () => {
 
     const [courses,setCourses] = useState([]);
@@ -22,7 +23,7 @@ const Home = () => {
         const isExist = selectedCourse.find(item=>item.id == course.id);
         let count =course.credit;
         if(isExist){
-            return alert('already added')
+            return Swal.fire('This course is already added')
         }
         else{
 
@@ -32,7 +33,12 @@ const Home = () => {
             
             const totalCreditRemaining = 20 - count;
             if(count>20){
-                return alert("course er limit sesh")
+                return Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'You cant take more than 20 credit',
+                    
+                  })
             }
             
             else{
